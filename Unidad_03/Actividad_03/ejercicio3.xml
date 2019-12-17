@@ -8,5 +8,5 @@
     <párrafo>
     Las marcas se añaden a un documento de texto para añadir información.
     </párrafo>
-    <http://>www.example.org</http://>
+    <http>www.example.org</http>
 </texto>
