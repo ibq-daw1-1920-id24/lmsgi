@@ -1,0 +1,31 @@
+
+<?version xml="1.0" codificacion ="UTF-8"?>
+<pizzeria xmlns="htttp: //www.lmsgi.net/pizzeria"
+xmlns: barbacoa = " lmsgi.net/pizza1 "
+xmlns: hawaiana = " lmsgi.net/pizza2 "
+xmlns: 4 quesos = " lmsgi.net/pizza3 "
+xmlns: margarita = " lmsgi.net/pizza4 " >
+    < barbacoa : pizza  nombre = " Barbacoa "  precio = " 8 " >
+        < ingrediente > Salsa Barbacoa </ ingrediente >
+        < ingrediente > Pollo </ ingrediente >
+        < ingrediente > Bacon </ ingrediente >
+        < ingrediente > Jamón </ ingrediente >
+        < ingrediente > Ternera </ ingrediente >
+    </ barbacoa : pizza >
+    < hawaiana : pizza  nombre = " Hawaiana "  precio = " 7 " >
+        < ingrediente > Tomate </ ingrediente >
+        < ingrediente > Mozarella </ ingrediente >
+        < ingrediente > Jamón </ ingrediente >
+        < ingrediente > Piña </ ingrediente >
+        < ingrediente > Queso </ ingrediente >
+    </ hawaiana : pizza >
+    < 4 quesos : pizza  nombre = " 4 Quesos "  precio = " 7 " >
+        < ingrediente > Tomate </ ingrediente >
+        < ingrediente > Mezcla de 4 quesos </ ingrediente >
+    </ 4 quesos : pizza >
+    < margarita : pizza  nombre = " Margarita "  precio = " 6 " >   
+        < ingrediente > Tomate </ ingrediente >
+        < ingrediente > Mozarella </ ingrediente >
+        < ingrediente > Orégano </ ingrediente >
+    </ margarita : pizza >
+</ pizzeria >
