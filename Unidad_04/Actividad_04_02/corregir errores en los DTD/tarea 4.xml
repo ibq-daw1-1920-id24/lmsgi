@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE resoluciones [
+<!ELEMENT resoluciones (resolucion*)> 
 <!ELEMENT resoluciones EMPTY>
 <!ATTLIST resoluciones nombre NMTOKEN #REQUIRED>
 <!ATTLIST resoluciones alto CDATA #REQUIRED>
