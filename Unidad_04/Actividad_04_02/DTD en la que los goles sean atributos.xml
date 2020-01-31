@@ -3,9 +3,9 @@
 <!ELEMENT partidos (partido+)>
 <!ELEMENT partido (equipolocal, equipovisitante)>
 <!ELEMENT equipolocal (#PCDATA)>
-<!ATTLIST equipolocal goleslocal #REQUIRED>
+<!ATTLIST equipolocal goleslocal CDATA #REQUIRED>
 <!ELEMENT equipovisitante (#PCDATA)>
-<!ATTLIST equipovisitante golesvisitantes #REQUIRED>
+<!ATTLIST equipovisitante golesvisitantes CDATA #REQUIRED>
 ]>
 
 <partidos>

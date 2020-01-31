@@ -2,10 +2,10 @@
 <!DOCTYPE partidos [
 <!ELEMENT partidos (partido+)>
 <!ELEMENT partido EMPTY>
-<!ATTLIST partido equipolocal #REQUIRED>
-<!ATTLIST partido equipovisitante #REQUIRED>
-<!ATTLIST partido goleslocal #REQUIRED>
-<!ATTLIST partido golesvisitantes #REQUIRED>
+<!ATTLIST partido equipolocal CDATA #REQUIRED>
+<!ATTLIST partido equipovisitante CDATA #REQUIRED>
+<!ATTLIST partido goleslocal CDATA #REQUIRED>
+<!ATTLIST partido golesvisitantes CDATA #REQUIRED>
 ]>
 
 <partidos>
