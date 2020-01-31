@@ -2,7 +2,7 @@
 <!DOCTYPE partidos [
 <!ELEMENT partidos (partido+)>
 <!ELEMENT partido (equipolocal, equipovisitante, goleslocal, golesvisitantes)>
-<!ELEMENT equipo (#PCDATA)>
+<!ELEMENT equipolocal (#PCDATA)>
 <!ELEMENT equipovisitante (#PCDATA)>
 <!ELEMENT goleslocal (#PCDATA)>
 <!ELEMENT golesvisitantes (#PCDATA)>
