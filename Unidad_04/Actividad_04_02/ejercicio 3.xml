@@ -6,6 +6,6 @@
 <!ATTLIST cuadro autor CDATA #REQUIRED>
 ]>
 <cuadros> 
-<cuadro titulo="Adán y Eva" autor="Alberto Durero" />
-<cuadro autor="Lucas Cranach, el viejo" titulo="Adán y Eva y el albol" /> 
+<cuadro titulo="Adán_y_Eva_1" autor="Alberto Durero" />
+<cuadro titulo="Adán_y_Eva_2" autor="Lucas Cranach, el viejo" /> 
 </cuadros>
