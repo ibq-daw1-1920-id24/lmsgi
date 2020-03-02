@@ -1,7 +1,10 @@
 body {width: 960px;
-     column-count: 2;}
-
+    column-count: 2;}
+     
 h1 {text-align: center;}
 
-div {column-count: 3;}
+div#columnas {column-count: 3;}
 
+div#primero {width: 260px;}
+
+div#segundo {width: 700px;}
