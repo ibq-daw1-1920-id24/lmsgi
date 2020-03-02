@@ -1,10 +1,8 @@
 body {width: 960px;
     column-count: 2;}
-     
+
 h1 {text-align: center;}
 
 div#columnas {column-count: 3;}
 
-div#primero {width: 260px;}
-
-div#segundo {width: 700px;}
+div#primera_columna {left: 260px;}
