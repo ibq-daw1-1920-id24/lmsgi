@@ -1,0 +1,7 @@
+body {width: 960px;
+     column-count: 2;}
+
+h1 {text-align: center;}
+
+div {column-count: 3;}
+
