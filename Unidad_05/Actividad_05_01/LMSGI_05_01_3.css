@@ -1,10 +1,9 @@
-body {width: 960px;
-    column-count: 2;}
+body {width: 960px;}
 
 h1 {text-align: center;}
 
-div#columnas {column-count: 3;}
+#columnas {column-count: 3;}
 
-div#primera_columna {float:left; width: 260px;}
+#primera_columna {float:left; width: 260px;}
 
-div#segunda_columna {float:right; width: 700px;}
+#segunda_columna {float:right; width: 700px;}
