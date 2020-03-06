@@ -1,0 +1,9 @@
+body {width: 960px;}
+
+h1 {text-align: center;}
+
+#columnas {column-count: 3;}
+
+#primera_columna {float:left; width: 260px;}
+
+#segunda_columna {float:right; width: 700px;}
