@@ -11,5 +11,20 @@
 h4 {color:green}
 
 #lmsgi {font-size: larger;
-        text-align: center;
+        float: right; width: 70%;
         color: rgb(255, 102, 0);}
+
+a {text-decoration: none;
+    color: rgb(255, 102, 0);}
+
+nav li a {color: black;}
+
+nav li {padding-top: 5px;
+    padding-bottom: 5px;}
+
+nav {float:left; width: 15%;}
+
+section {float: right; width: 85%;}
+
+
+
