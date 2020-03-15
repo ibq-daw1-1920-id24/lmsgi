@@ -1,4 +1,4 @@
-﻿h1 {border:1px solid gray;
+h1 {border:1px solid gray;
     margin-left: 15%;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -25,6 +25,3 @@ nav li {padding-top: 5px;
 nav {float:left; width: 15%;}
 
 section {float: right; width: 85%;}
-
-
-
