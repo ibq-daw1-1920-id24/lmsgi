@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE lista_de_personas[
 <!ELEMENT lista_de_personas (persona+) >
-<!ELEMENT persona EMPTY >
 <!ELEMENT persona (nombre,fechanacimiento,(telefono+),(sexo | numeroseguridadsocial)) >
 <!ATTLIST persona nacionalidad CDATA #REQUIRED>
 <!ELEMENT nombre (#PCDATA) >
