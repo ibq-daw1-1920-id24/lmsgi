@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE listin [
+<!ELEMENT listin (persona+)>
+<!ELEMENT persona (nombre, email, (relacion*))>
+<!ATTLIST persona sexo CDATA #REQUIRED>
+<!ATTLIST persona id CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT relacion EMPTY>
+<!ATTLIST relacion amigo-de CDATA #REQUIRED>
+]>
+
+<listin>
+    <persona sexo="hombre" id="ricky">
+        <nombre>Ricky Martin</nombre>
+        <email>ricky@puerto-rico.com</email>
+        <relacion amigo-de="leatitia"/>
+    </persona>
+    <persona sexo="mujer" id="leatitia">
+        <nombre>Leatitia Casta</nombre>
+        <email>castal@micasa.com</email>
+    </persona>
+</listin>
