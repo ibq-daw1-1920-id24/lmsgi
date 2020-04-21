@@ -1,0 +1,17 @@
+body {width: 60%;}
+h1 {color: rgb(8, 150, 136);}
+p strong {color: red}
+span.destacado {color: orange;}
+h2 {color: blue;}
+a {color: red;}
+a em {color: blue;}
+span.especial {color: purple;}
+th.especial {color: orange;}
+table {border-collapse: collapse;}
+th {color: red; border: solid 1px black;}
+td {color: green; border: solid 1px black;}
+td strong {color: orange;}
+td em {font-style: oblique;}
+#adicional {color:olive;}
+#adicional #especial {color: rgb(240, 94, 142)}
+#adicional p a {color: green;}
