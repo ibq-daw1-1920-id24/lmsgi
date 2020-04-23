@@ -4,4 +4,4 @@ li:hover {background-color: #FF9; padding: 15px;}
 p {display: none;}
 span input:focus {border: solid 4px #E6B700;}
 label.titulo {font-weight: bold;}
-span.requerido {color: red; }
+span.requerido {color: red;}
